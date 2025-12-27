@@ -18,21 +18,15 @@ This project follows a complete machine-learning workflow — from understanding
 
 The dataset used is the **Cleveland Heart Disease Dataset**, which is widely used in research and academic ML projects.
 
-Dataset Source Links:
-
-🔗 UCI Machine Learning Repository  
-https://archive.ics.uci.edu/ml/datasets/heart+Disease  
-
-🔗 Kaggle Dataset  
-https://www.kaggle.com/ronitf/heart-disease-uci  
-
 The dataset contains **303 records**, each labelled as:
 
 - `1` → Heart disease present  
 - `0` → No heart disease  
 
 ---
+## 📂 Repository Structure
 
+```text
 Heart-Disease-Prediction/
 │
 ├── app.py
@@ -40,7 +34,7 @@ Heart-Disease-Prediction/
 ├── README.md
 ├── requirements.txt
 └── notebook.ipynb   (optional)
-
+```
 
 ## 🧠 Machine Learning Model
 
