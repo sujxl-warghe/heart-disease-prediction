@@ -33,6 +33,15 @@ The dataset contains **303 records**, each labelled as:
 
 ---
 
+Heart-Disease-Prediction/
+│
+├── app.py
+├── logistic_regression.pkl
+├── README.md
+├── requirements.txt
+└── notebook.ipynb   (optional)
+
+
 ## 🧠 Machine Learning Model
 
 Multiple ML algorithms were experimented with, and **Logistic Regression** was selected as the final model because:
@@ -82,6 +91,20 @@ Prediction Output:
 
 ## 🚀 How to Run the Project Locally
 
-### 1️⃣ Clone or download the project
+1. Clone or download the project :
 ```bash
-git clone <repository-link>
+git clone https://github.com/sujxl-warghe/heart-disease-prediction.git
+```
+2. Create a virtual environment :
+```bash
+pyhton -m venv venv
+.venv/Scripts/activate
+```
+3. Install dependencies :
+```bash
+pip install requirement.txt
+```
+4. Run the application :
+```bash
+streamlit run app.py
+```
