@@ -1,0 +1,67 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model + dataset binaries (optional — remove if you WANT to upload)
+*.joblib
+*.h5
+*.model
+
+# Environment variable files
+.env.local
+.env.production
+.env.development
+
+# Python coverage / testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# Packaging lock files
+Pipfile.lock
+poetry.lock
